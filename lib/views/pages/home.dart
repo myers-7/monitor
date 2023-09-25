@@ -10,13 +10,13 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
             backgroundColor: Colors.deepPurple,
             elevation: 0,
-            title: Row(
+            title: const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
+              children: [
                 Icon(Icons.monitor),
                 TextWidget(
                   size: 15,
-                  text: 'Home Page',
+                  text: 'HOME',
                   color: Colors.white,
                   bold: true,
                 ),
